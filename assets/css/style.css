@@ -1,0 +1,191 @@
+#myimage {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 10px;
+    border-radius: 125px;
+    border-style: outset;
+}
+
+#brand {
+    background-color: #4aaaa5;
+    border-top: solid;
+    border-color: #000000;
+    color: #dddddd;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    border-radius: 10px 0;
+}
+
+.active {
+    color: #000000;
+}
+
+.inactive {
+    color: #5c5858;
+}
+
+#footer {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #dddddd;
+    background-color: #666666;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 12px;
+    text-align: center;
+}
+
+body {
+    /*background-image: url("images/spiration-light.png");*/
+    background-image: url("../images/wild_flowers.png");
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    background: rgba(102, 102, 102, 0.38); 
+}
+
+h1 {
+    color: #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-small;
+    text-shadow: 0 0 5px #4aaaa5;
+}
+
+button[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#pimg {
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+a:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.menu {
+    color: #000000 !important;
+    text-decoration: underline;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 16px;
+    width: 340px;
+    /*background-color: #4aaaa5;*/
+    background-color:rgba(0, 0, 0, 0.45); 
+    color: #ffffff;
+    text-align: center;
+    padding: 0px;
+    padding-left: 0px;
+    line-height: 2.5;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width:576px) {
+    #myimage {
+        display: block;
+        float: none;
+        margin: 0 auto 20px !important;
+    }
+
+    .container {
+        padding: 20px;
+        border-style: solid;
+        border-width: thin;
+        border-color: rgb(172, 127, 127);
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:648px) {
+    #myimage {
+        *display: block;
+        float: none;
+        margin: 0 auto 20px !important;
+    }
+
+    .container {
+        padding: 20px;
+        border-style: solid;
+        border-width: thin;
+        border-color: lightgray;
+        width: 400px;
+    }
+
+    #brand {
+        width: 100%;
+        text-align: center;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .container {
+        padding: 20px;
+        border-style: solid;
+        border-width: thin;
+        border-color: lightgrey;
+        width: 70%;
+    }
+
+    #brand {
+        width: 100%;
+        text-align: center;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #brand {
+        background-color: #4aaaa5;
+        border-top: solid;
+        border-color: black;
+        color: #dddddd;
+        padding: 15px;
+    }
+
+    .container {
+        border-style: solid;
+        border-width: thin;
+        border-color: lightgrey;
+    }
+
+}
+
+@media only screen and (min-width:769px) {
+    .container {
+        padding: 20px;
+        border-style: solid;
+        border-width: thin;
+        border-color: lightgrey;
+        width: 750px !important;
+        /* float: left;*/
+        margin-left: 25px !important;
+    }
+
+    #brand {
+        border-style: none !important;
+    }
+}
