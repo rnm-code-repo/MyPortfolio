@@ -41,7 +41,6 @@
 }
 
 body {
-    /*background-image: url("images/spiration-light.png");*/
     background-image: url("../images/wild_flowers.png");
 }
 
@@ -92,7 +91,6 @@ a:hover {
     position: absolute;
     bottom: 16px;
     width: 340px;
-    /*background-color: #4aaaa5;*/
     background-color:rgba(0, 0, 0, 0.45); 
     color: #ffffff;
     text-align: center;
